@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/splash"
+        />
+    <TextView
+        android:id="@+id/start_skip_count_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="0 跳过"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/start_skip_count_bg"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        />
+</RelativeLayout>
